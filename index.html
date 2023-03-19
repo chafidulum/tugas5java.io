@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styleku.css" rel="stylesheet">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <form id="form1">
+                    <table>
+                    <tr>
+                    <td><P>Angka 1 <input type="text" id="a" class="input1"></P></td>
+                    <td><P>Angka 2 <input type="text" id="b" class="input1"></P></td>
+                    <td><P>Hasil = <input type="text" id="c" class="input1"></P></td>
+                    </tr>
+                    <tr>
+                    <input id="tombol" type="button" value="+" onclick="tambah()">
+                    <input id="tombol" type="button" value="-" onclick="kurang()">
+                    <input id="tombol" type="button" value="x" onclick="kali()">
+                    <input id="tombol" type="button" value="/" onclick="bagi()">
+                    <input id="tombol" type="button" value="^" onclick="pangkat()">
+                    </tr>
+                </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/skripku.js"></script>
+</body>
+</html>
